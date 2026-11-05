@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saúde Fitbit Air</title>
+<meta name="description" content="Aplicação pessoal que reúne os dados do Fitbit Air para relatórios de saúde de uso próprio.">
+<style>
+  :root { --bg:#f7f7f5; --fg:#1c1c1a; --muted:#5d5d58; --line:#deddd7; --accent:#2f6f5e; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151514; --fg:#ecebe6; --muted:#a3a29b; --line:#2e2e2b; --accent:#7cc4ad; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 72px; }
+  h1 { font-size: 1.9rem; line-height:1.2; margin: 0 0 8px; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Saúde Fitbit Air</h1>
+  <p class="sub">Aplicação pessoal de acompanhamento de saúde, mantida por Vinicius Gava de Oliveira.</p>
+
+  <p>Esta aplicação lê, somente para leitura, os dados de atividade, sono e sinais vitais registrados pela pulseira Fitbit Air do próprio mantenedor, por meio da Google Health API. Os dados são guardados em um banco de dados privado e usados para gerar resumos semanais e relatórios mensais de saúde de uso pessoal.</p>
+
+  <h2>O que a aplicação faz</h2>
+  <ul>
+    <li>Coleta diariamente passos, atividade, frequência cardíaca, variabilidade da frequência cardíaca, sono, respiração, oxigenação, temperatura e exercícios.</li>
+    <li>Organiza esses dados em um banco privado, sem acesso público.</li>
+    <li>Gera resumos e relatórios para o próprio usuário.</li>
+  </ul>
+
+  <h2>Quem pode usar</h2>
+  <p>A aplicação não é oferecida ao público. Ela é de uso exclusivo do mantenedor e não aceita cadastro de outras pessoas.</p>
+
+  <h2>Privacidade</h2>
+  <p>Leia a <a href="privacidade.html">Política de Privacidade</a> para saber quais dados são acessados, como são guardados e como revogar o acesso.</p>
+
+  <footer>Contato: <a href="mailto:viniciusgava29@gmail.com">viniciusgava29@gmail.com</a></footer>
+</main>
+</body>
+</html>
